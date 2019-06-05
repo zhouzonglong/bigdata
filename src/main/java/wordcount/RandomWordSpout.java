@@ -24,6 +24,7 @@ public class RandomWordSpout extends BaseRichSpout {
 	private SpoutOutputCollector collector;
 
 	// 模拟一些数据
+
 	String[] words = { "iphone", "xiaomi", "mate", "sony", "sumsung", "moto", "meizu" };
 
 	// 不断地往下一个组件发送tuple消息
